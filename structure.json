@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Histoire de l'informatique",
+    "slug": "history_or_emergence",
+    "description": "Histoire de l'informatique. Fondements. Ada lovelace et Alan Turing. Informatique à base décimale vs. binaire.",
+    "hp": [],
+    "wp": []
+  },
+  {
+    "name": "Éléments de base d'un ordinateur",
+    "slug": "basic_computer_elements",
+    "description": "Tour des composantes Physicalité. Mémoire, processeur (clock, opérations), vitesse entre les composantes. Émergence du calcul basé sur le transistor. Parler de la turing machine. Peut-être intéressant de voir le film sur alan turing avant",
+    "hp": [],
+    "wp": ["history_or_emergence"]
+  },
+  {
+    "name": "Représentation binaire de l'information et mémoire",
+    "slug": "binary_representation",
+    "description": "Comment on 'encode' l'information dans l'ordinateur. Comment fonctionne la mémoire. Les nombres, les lettres, les phrases, le vrai/faux, les images.",
+    "hp": ["basic_computer_elements"],
+    "wp": []
+  },
+  {
+    "name": "Arborescence #TODO",
+    "slug": "directory_tree_structure",
+    "description": "En se basant sur les concepts de représentation mémoire, comment créer de la structure",
+    "hp": ["binary_representation"],
+    "wp": []
+  },
+  {
+    "name": "Programmation de base",
+    "slug": "basic_programming",
+    "description": "Prog compilée. Typage et premier programme de base.",
+    "hp": ["binary_representation"],
+    "wp": []
+  }
+]
